@@ -29,6 +29,13 @@
     flex:80%;
     height: 100%;
 }
+h1,p{
+    font-family: 'Montserrat', sans-serif;  
+    text-align: justify;
+    text-align: center;
+    
+}
+
 .carouselInner .right{
     height: 100%;
     flex: 5%;
@@ -37,4 +44,3 @@
     color: transparent;
     cursor: pointer;
 }
-   

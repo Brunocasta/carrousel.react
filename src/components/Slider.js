@@ -19,19 +19,20 @@ function Carousel() {
                     <ArrowBackIosIcon />
                 </div>
 
-                <div classname="center"><div>
-                    <h1>{images[currImg].title}</h1>
-                    <p>{images[currImg].subTitle}</p>
+                <div classname="center"> 
+                <h1>{images[currImg].title}</h1>
+                <p>{images[currImg].subTitle}</p>
                 </div>
 
-                </div>
                 <div className="right"
                     onClick={() => {
                         currImg < images.length - 1 && setCurrImg(currImg + 1);
                     }}>
                     <ArrowForwardIosIcon />
                 </div>
+                
             </div>
+            
         </div>
     )
 }
