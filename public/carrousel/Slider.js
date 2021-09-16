@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './Slider.css'
+//import './Slider.css'
 import dataSlider from './dataSlider'
 
 export default function Slider() {
