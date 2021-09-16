@@ -1,5 +1,5 @@
 import './App.css';
-import Slider from '../public'
+import Slider from '../public/carrousel'
 
 function App() {
   return (
